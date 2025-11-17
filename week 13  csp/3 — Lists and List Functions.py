@@ -65,3 +65,24 @@ listofitems.extend(range(1001, 3000))
 # # Reverse your list using .reverse().
 
 # # Create a list of 3 lists (matrix), and access the middle element.
+# instead of creating sparate varibales for each item we can store them in a list this makes out job easier this makes managing the complexity of our code easier when we need to mange multiple items 
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {"apple", "banana", "cherry"}
+print(set1)
+print(set2)
+print(type(set1))
+
+
+setwithduplicates = {1, 2, 2,3, 4,4, 5}
+print(setwithduplicates)
+print(3 in set1)
+print(6 in set1)
+
+
+tuple1 = {1, 2, 3, 4, 5}
+tuple2 = {"apple", "banana", "cherry"}
+print(tuple1)
+print(tuple2)
+print(type(tuple1))
+
