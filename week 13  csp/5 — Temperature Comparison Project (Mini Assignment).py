@@ -12,3 +12,16 @@
 
 # Starter Code:
 
+temperature = float(input("what is todays temperature: "))
+
+
+if temperature < -10 or temperature > 110:
+    print("dangerous weather")
+else:
+
+    if temperature < 40:
+        print("It's cold.")
+    elif temperature > 40:
+        print("It's warm.")
+    else:
+        print("It's hot.")
